@@ -1,0 +1,61 @@
+CSCI 4780
+Programming Project 2: Multithreaded FTP Client and Server
+
+(a)
+Vincent Lee
+Will Henry
+
+(b)
+Files included:
+./client/Makefile
+./client/ftp/client/GetWorker.java
+./client/ftp/client/Main.java
+./client/ftp/client/FTPClient.java
+./client/ftp/client/TerminateWorker.java
+./client/ftp/client/Worker.java
+./client/ftp/client/PutWorker.java
+./server/Makefile
+./server/ftp/server/NormalDaemon.java
+./server/ftp/server/TerminateDaemon.java
+./server/ftp/server/Main.java
+./server/ftp/server/FTPServer.java
+./server/ftp/server/NormalWorker.java
+./server/ftp/server/TerminateWorker.java
+./Readme
+
+
+To compile & run & clean server:
+cd server
+make compile
+make run
+make clean
+
+To compile & run & clean client:
+cd client
+make compile
+make run
+make clean
+
+
+NOTE:
+The ftp client and server run on localhost on nport 30020 and tport 30021
+To run them manually:
+
+Server:
+cd server
+java ftp.server.Main [nport] [tport]
+
+Client
+cd client
+java ftp.client.Main [hostname] [nport] [tport]
+
+ADDITIONAL NOTE:
+SERVER: two command line arguments: port numbers where the server will wait on (one for normal commands and another for the "terminate" command)
+CLIENT: three command line arguments: the machine name where the server resides, the normal port number, and the terminate port number
+
+We did additional tested on a virtual machine which resides on nike: vm28
+
+
+(c)
+This project was done in its entirety by Vincent Lee & Will Henry. We hereby state that we have not received unauthorized help of any form.
+

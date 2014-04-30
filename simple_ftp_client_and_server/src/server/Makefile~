@@ -1,0 +1,6 @@
+compile:
+	javac myftpserver.java
+run: myftpserver.class
+	java myftpserver 3021
+clean:
+	rm -f *.class
