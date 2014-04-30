@@ -2,7 +2,7 @@
 
 The aim of this project is to introduce you to the basics of the client-server model of distributed systems. In this project, you will be designing and implementing simplified versions of FTP client and server. The client executable will be called “myftp” and the server executable will be called “myftpserver”. You are only required to implement the following FTP commands. The syntax of the command is indicated in the parenthesis.
 
-1. get (get \`<remote_filename\`>) -- Copy file with the name <remote_filename> from remote directory to local directory.
+1. get (get \<remote_filename\>) -- Copy file with the name <remote_filename> from remote directory to local directory.
 2. put (put <local_filename>) -- Copy file with the name <local_filename> from local directory to remote directory.
 3. delete (delete <remote_filename>) – Delete the file with the name <remote_filename> from the remote directory.
 4. ls (ls) -- List the files and subdirectories in the remote directory.
