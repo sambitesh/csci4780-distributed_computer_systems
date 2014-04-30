@@ -34,5 +34,8 @@ When a client connects to the “tport”, the server accepts the terminate comm
 A Zip folder containing:
 
 1. Your code for client and server.
-2. A readme file containing (a) names of the students in the project group; (b) any special compilation or execution instruction; and (c) the following statement – if it is true – “This project was done in its entirety by <Project group members names>. We hereby state that we have not received unauthorized help of any form”. If this statement is not true, you should talk to me before submission.
+2. A readme file containing
+  a. names of the students in the project group
+  b. any special compilation or execution instruction; and
+  c. the following statement – if it is true – “This project was done in its entirety by <Project group members names>. We hereby state that we have not received unauthorized help of any form”. If this statement is not true, you should talk to me before submission.
 3. All submissions will be done on ELC.
