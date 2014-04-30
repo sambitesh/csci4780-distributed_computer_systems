@@ -3,7 +3,7 @@ CSCI 4780 Distributed Computing Systems
 
 ####Spring 2014
 
-###Class Organization
+##Class Organization
 - Instructor: [Lakshmish Ramaswamy](http://cobweb.cs.uga.edu/~laks/) (laks@cs.uga.edu, 706-542-2737, GSRC 542)
 - Time and venue
   - Tues & Thurs 12:30 – 1:45 PM (GSRC 306)
@@ -16,13 +16,13 @@ CSCI 4780 Distributed Computing Systems
   - Tue and Thu 11:00 AM – 11:45 AM
 - TA Office Hours -- TBA
 
-###Course Materials
+##Course Materials
 - Textbook
   - Distributed Systems: Principles and Paradigms, by Tanenbaum & van Steen (Second edition, Publisher: Pearson Prentice Hall, Inc.)
 - Supplemental materials from research papers
   - Copies distributed in class or put on the website
 
-###Syllabus
+##Syllabus
 - Introduction to Distributed Computing
 - Communication
 - Processes
@@ -32,7 +32,7 @@ CSCI 4780 Distributed Computing Systems
 - Reliability
 - Cloud Computing and Bigdata (new!)
 
-###What this Course is (Not) About
+##What this Course is (Not) About
 - You will learn
   - Systems Design
   - Tradeoffs
@@ -44,7 +44,7 @@ CSCI 4780 Distributed Computing Systems
   - HTML/XML
   - System/Database Administration
 
-###Grading Policy for Undergrads
+##Grading Policy for Undergrads
 - Programming Projects [30%]
 - Midterm exam [25%]
 - Final exam [35%]
@@ -52,7 +52,7 @@ CSCI 4780 Distributed Computing Systems
 - Class participation [5%]
 - Absolute grading
 
-Grading Policy for Grads
+##Grading Policy for Grads
 - Programming Projects [30%]
 - Midterm exam [25%]
 - Presentation [10%]
@@ -61,21 +61,21 @@ Grading Policy for Grads
 - Class participation [5%]
 - Absolute grading
 
-###Programming Projects
+##Programming Projects
 - To be done in groups of two
   - You are responsible for forming groups
 - Most projects can be done in C/C++/Java
 - Many projects involve multi-threaded programming
 - Projects are evaluated against sets of test cases
 
-###Course Policies
+##Course Policies
 - Project late submission policy – 10 point deduction for each late day; 0 after 5 days
 - Project due date extensions – only for medical reasons or emergencies involving immediate family members (suitable documentation required)
 - Make-up exams policy – only for medical reasons or emergencies involving immediate family members (suitable documentation required)
 - No retakes
 
-###Honesty
-- Carefully review UGA honesty policy available at [Preamble - uga-academic-honesty-policy-may-07](https://ovpi.uga.edu/sites/default/files/uga-academc-honesty-policy-may-07.pdf]
+##Honesty
+- Carefully review UGA honesty policy available at [Preamble - uga-academic-honesty-policy-may-07](https://ovpi.uga.edu/sites/default/files/uga-academc-honesty-policy-may-07.pdf)
 - Honesty policy will be strictly followed
 - Violations will result in mandatory F
 - No unauthorized assistance in projects, assignments and exams
@@ -84,7 +84,7 @@ Grading Policy for Grads
 - No sharing code unless permitted by instructor in writing/email
 - When in doubt, talk to instructor
 
-###Your Responsibility
+##Your Responsibility
 - Interest in learning
 - Class involvement
   - Don’t accept without questioning
@@ -92,4 +92,4 @@ Grading Policy for Grads
 - Timeliness
 - Have fun !!!
 
-##Let's Get Start!
+###Let's Get Start!
