@@ -3,7 +3,7 @@
 
 The goal of this assignment is to provide you with exposure to Map-Reduce (Hadoop) programming. Assume that you are provided with a file containing the edges of a web graph. Each line of the file contains a pair of document ids (each id is an integer between 000 and 999) signifying an edge in the web graph from the first document to the second document of the pair (i.e., the first vertex is the source of the edge and the second is the destination of the edge). An example input file is shown below.
 
-`
+```
 000 001
 002 001
 000 001
@@ -11,23 +11,23 @@ The goal of this assignment is to provide you with exposure to Map-Reduce (Hadoo
 000 002
 002 000
 001 002
-`
+```
 
 Given such an input file, you need to write two map-reduce programs. The first program will compute the in-degree and out-degree of each document. For the above input file the output of your program should be
 
-`
+```
 000 2 1
 001 1 2
 002 2 2
-`
+```
 
 The second program should produce an output consisting of a sequence of lines. Each line consists of a document ID (say "ABC") followed by a unique list of document IDS that are sources of edges that are directed towards ABC. For the above input file, the output should be
 
-`
+```
 000 [002]
 001 [000 002]
 002 [001 000]
-`
+```
 
 Important points to note:
 
