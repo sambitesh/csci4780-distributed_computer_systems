@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Distributed computing Systems - Spring 2014</title></head><body>
+
+
+
+
+
+
+
+
+<h1 style="text-align: center;"><span style="text-decoration: underline;">Distributed Computing Systems</span></h1>
+
+
+
+
+
+
+
+
+<div style="text-align: center;">
+
+<h2>Spring 2014</h2>
+
+
+
+
+
+
+
+
+<div style="text-align: left;">
+
+<h3><span style="text-decoration: underline;">General Course
+
+Information:</span></h3>
+
+
+
+
+
+
+
+
+<div style="margin-left: 40px;"><span style="text-decoration: underline; font-weight: bold;">Instructor: </span>Lakshmish
+
+Ramaswamy (laks[AT]cs[dot]uga[dot]edu, 706-542-2737)<br>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<small><small>&nbsp;<small> </small></small></small><br>
+
+
+
+
+
+
+
+
+<div style="margin-left: 40px;"><span style="font-weight: bold; text-decoration: underline;">Time and Venue:</span>
+
+Tuesdays &amp; Thursdays - 12:30 PM to 1:45 PM (GSRC 306); Wednesdays - 12:20 PM to 1:10 PM (GSRC 306)<br>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<small><small>&nbsp;</small></small><br>
+
+
+
+
+
+
+
+
+<div style="margin-left: 40px;"><span style="font-weight: bold; text-decoration: underline;">Office Hours: </span>Tuesday and Thursdays - 10:45 to 11:45 AM (GSRC 542) and by appointment<br>
+<br>
+<span style="font-weight: bold; text-decoration: underline;">TA:</span> Nilayan Bhattacharya (nilayan[AT]uga[dot]edu) <br>
+<br>
+<span style="font-weight: bold; text-decoration: underline;">TA Office Hours: TBA</span><br>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<small><br>
+
+
+
+
+
+
+
+
+</small>
+
+<h3><span style="text-decoration: underline;">Course Description:</span></h3>
+
+
+
+
+
+
+
+
+<div style="margin-left: 40px;"><span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;;">The area of
+
+distributed computing has seen tremendous developments in the past few
+
+years, and distributed systems have
+
+become widely pervasive. Today's distributed systems range from ad-hoc
+
+networks
+
+comprising of mobile devices, to overlay networks such as peer-to-peer
+
+systems, to massive web farms of powerful servers.</span><span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;;">The objective
+
+of the course is to gain an
+
+in-depth knowledge of the fundamental concepts in distributed systems
+
+and to
+
+understand the practical techniques for building distributed systems
+
+and
+
+applications.<br>
+
+
+
+
+
+
+
+
+</span></div>
+
+
+
+
+
+
+
+
+<h3><span style="text-decoration: underline;">Course Materials:</span></h3>
+
+
+
+
+
+
+
+
+<div style="margin-left: 40px;"><span style="font-weight: bold; font-style: italic;">Textbook:</span><br>
+
+
+
+
+
+
+
+
+<span style="font-weight: bold; font-style: italic;"></span></div>
+
+
+
+
+
+
+
+
+<ul style="margin-left: 40px;">
+
+
+
+
+
+
+
+
+  <li>
+
+    
+    
+    
+    
+    
+    
+    
+    <p class="MsoNormal" style="margin: 6pt 0in 0.0001pt 27pt; text-indent: -0.25in;"><!--[if !supportLists]-->Distributed
+
+Systems: Principles and Paradigms, by Tanenbaum &amp; van Steen (Second
+
+edition,
+
+Publisher: Prentice Hall, Inc.)</p>
+
+
+
+
+
+
+
+
+  </li>
+
+
+
+
+
+
+
+
+</ul>
+
+
+
+
+
+
+
+
+<h3><span style="text-decoration: underline;">Slides:</span></h3>Will be available on ELC at the end of each week.<br>
+
+
+
+
+
+
+
+
+<h3 style="text-decoration: underline;">Programming Projects<br>
+</h3>
+<a href="http://www.cs.uga.edu/%7Elaks/DCS-2011-Sp/assignments/assignment-1.html">
+</a><a href="http://cobweb.cs.uga.edu/%7Elaks/DCS-2014-Sp/Programming-Project1.pdf">Project 1</a> -- Due Date: February 18, 11:59 PM.<br>
+<a href="http://cobweb.cs.uga.edu/%7Elaks/DCS-2014-Sp/Programming-Project2.pdf">Project 2</a> -- Due Date: March 31, 11:59 PM.<br>
+<a href="http://cobweb.cs.uga.edu/%7Elaks/DCS-2014-Sp/Programming-Project3-PC.pdf">Project 3</a> (Proxy-Cache). This project is to be done only by undergrads. Due Date -- 04/28/2014.<br>
+<a href="http://cobweb.cs.uga.edu/%7Elaks/DCS-2014-Sp/Programming-Project3-MR.pdf">Project 3 </a>(Map-Reduce).
+All grads will do this project. Undergrads can choose to do the above
+(Proxy Cache) project or this one. Due Date -- 04/28/2014.<br>
+<br>
+<h3 style="text-decoration: underline;">Presentation Topics for Graduate Students&nbsp;</h3>Each presentation is around 20 mins + 5 mins for QA<br>
+<ol>
+  
+  <li><a href="https://computing.llnl.gov/tutorials/pthreads/">PThreads</a> -- Rick Price(02/20)<br>
+  </li>
+
+  
+  <li><a href="http://docs.oracle.com/javase/tutorial/essential/concurrency/">Java Threads</a> -- Milad Makkie (03/20)<br>
+  </li>
+
+  
+  <li><a href="http://www.ietf.org/proceedings/70/slides/dnstut-0.pdf">DNS</a> -- Sahar Voghoei (04/03)<br>
+  </li>
+
+  
+  <li><a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2826">NFS&nbsp; </a>--Delaram Yazdansepas (03/27)<br>
+  </li>
+
+  
+  <li><a href="http://hc.apache.org/httpcomponents-client-ga/tutorial/html/fundamentals.html">HTTP Components</a> -- Yue Yin (04/03)<br>
+  </li>
+
+  
+  <li><a href="http://faculty.kfupm.edu.sa/COE/sadiq/richfiles/rich/pdf/New%20Folder/xmlintro.pdf">XML</a> -- Seyedamin Pouriyeh&nbsp; (04/03)<br>
+  </li>
+
+  
+  <li><a href="http://www.dre.vanderbilt.edu/%7Eschmidt/PDF/corba4.pdf">CORBA</a> -- Peng Hao (04/10)<br>
+  </li>
+
+  
+  <li><a href="http://www.sts.tu-harburg.de/pw-and-m-theses/2001/Koft01.pdf">SOAP</a> -- Sindhuari Chandrupatla (04/10)<br>
+  </li>
+
+  
+  <li><a href="http://www.ibm.com/developerworks/webservices/tutorials/ws-understand-web-services2/ws-understand-web-services2-pdf.pdf">WSDL</a> -- Reshmi De (04/10)
+</li>
+
+  <li><a href="http://it-ebooks.info/book/635/">Hadoop</a> -- Alireza Khatamian (04/17)<br>
+</li>
+  <li>RESTful Web Services -- <br>
+</li>
+
+  
+  
+  <li><span style="text-decoration: underline;"><a href="http://msdn.microsoft.com/en-us/architecture/bb906060.aspx">Mashups</a> / <a href="http://pipes.tigit.co.uk/">Yahoo Pipes</a></span> -- Yibin Liao (04/17)<br>
+</li>
+  <li><a href="http://hbase.apache.org/">HBase/Bigtable</a> -- Bita Kazemi Zahrani (04/17)<br>
+</li>
+
+  <li><a href="http://bigdata.googlecode.com/files/Cassandra%20The%20Definitive%20Guide.pdf">Cassandra</a> -- Sumana Venkatesh (04/24)<br>
+</li>
+  <li><span style="text-decoration: underline;"><a href="http://infolab.stanford.edu/gps/">GPS </a>/ <a href="http://kowshik.github.com/JPregel/pregel_paper.pdf">Pregel</a></span> -- Delaram Rahbarnia (04/24)<br>
+</li>
+  
+  <li><span style="text-decoration: underline;"><a href="http://cs.brown.edu/research/aurora/vldb02.pdf">Data Stream Management</a> / <a href="odysseus.informatik.uni-oldenburg.de:8090/display/ODYSSEUS/Odysseus+Home">Odysseus</a></span> -- Sara Vahid (04/24) <br>
+</li>
+
+</ol>
+<h3 style="text-decoration: underline;">Homeworks for Undergraduate Students</h3>
+TBA<br>
+<h3 style="text-decoration: underline;">Related and Interesting
+
+Resources</h3>
+
+
+
+
+
+
+
+
+<ul>
+
+
+
+
+
+
+
+
+  <li><a href="http://www.cs.ucsd.edu/users/wgg/CSE210/howtoread.html">How
+
+to read an engineering research paper?</a> (by W. G. Griswold, Dept. of
+
+CSE, UCSD)</li>
+
+
+
+
+
+
+
+
+  <li><a href="http://www.cse.ogi.edu/%7Ejl/biblio-general.html">How to
+
+give a good research talk?</a> (Jones, Hughes and Launchbury, Univ. of
+
+Glasgow)</li>
+
+
+
+
+
+
+
+
+  <li><a href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html">Advice
+
+on research and writing </a>(CS Dept. CMU)</li>
+
+
+
+
+
+
+
+
+  <li><a href="http://www.nap.edu/readingroom/books/obas/">On being a
+
+scientist </a>(National Academy Press, Washington DC.)</li>
+
+
+
+
+
+
+
+
+</ul>
+
+
+
+
+
+
+
+
+<small></small></div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</body></html>
