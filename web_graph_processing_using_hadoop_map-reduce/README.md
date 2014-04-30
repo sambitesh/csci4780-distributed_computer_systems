@@ -29,7 +29,7 @@ The second program should produce an output consisting of a sequence of lines. E
 002 [001 000]
 ```
 
-Important points to note:
+##Important points to note:
 
 1. Your program should conform to the Map-Reduce programming paradigm. Mappers should process each line and output appropriate key-value pairs. Reducers should process all the values corresponding to each key value. Submissions that do not conform to the map-reduce paradigm will automatically get zero points.
 2. You can assume that each document is the destination to at least one edge.
