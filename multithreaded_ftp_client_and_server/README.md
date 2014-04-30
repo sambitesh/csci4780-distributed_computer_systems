@@ -4,8 +4,8 @@ The aim of this project is to introduce to you the design issues involved in mul
 
 The syntax of the terminate command is as follows:
 
-`terminate <command-ID> -- terminate the command identified by <br>
-<command-ID> (see below for a description of command ID).`
+```terminate <command-ID> -- terminate the command identified by
+<command-ID> (see below for a description of command ID).```
 
 The workings of the client and server are described below:
 
